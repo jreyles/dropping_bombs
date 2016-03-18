@@ -10,10 +10,24 @@ app.set('port', (process.env.PORT || 5000));
 app.get('/', function(req, res) {
  res.render('index');
 });
+
+
 var server = app.listen(app.get('port'), function() {
   console.log('listening on port', app.get('port'));
 });
 var io = require('socket.io').listen(server);
+var socket = io.sockets;
+
+socket.on("javascript", function(data) {
+    console.log("a vote for javascript");
+    io.sockets.emit("update_javascript");
+});
+
+socket.on("swift", function(data) {
+    console.log("a vote for swift");
+    io.sockets.emit("update_swift");
+});
+
 io.sockets.on('connection', function (socket) {
   console.log('SERVER::WE ARE USING SOCKETS!');
   console.log(socket.id);
