@@ -8,12 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		E9A42D491C9B29C60046E261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A42D481C9B29C60046E261 /* AppDelegate.swift */; };
-		E9A42D4B1C9B29C60046E261 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A42D4A1C9B29C60046E261 /* ViewController.swift */; };
+		E9A42D4B1C9B29C60046E261 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A42D4A1C9B29C60046E261 /* UserProfileViewController.swift */; };
 		E9A42D4E1C9B29C60046E261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A42D4C1C9B29C60046E261 /* Main.storyboard */; };
 		E9A42D501C9B29C60046E261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A42D4F1C9B29C60046E261 /* Assets.xcassets */; };
 		E9A42D531C9B29C60046E261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A42D511C9B29C60046E261 /* LaunchScreen.storyboard */; };
 		E9A42D5E1C9B29C60046E261 /* Dropping_BombsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A42D5D1C9B29C60046E261 /* Dropping_BombsTests.swift */; };
 		E9A42D691C9B29C60046E261 /* Dropping_BombsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A42D681C9B29C60046E261 /* Dropping_BombsUITests.swift */; };
+		E9A42D771C9B2A8F0046E261 /* cameraIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E9A42D761C9B2A8F0046E261 /* cameraIcon.png */; };
+		E9B654021C9B4852006EE93C /* DropBombsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B654011C9B4852006EE93C /* DropBombsViewController.swift */; };
+		E9B654041C9B53DE006EE93C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9B654031C9B53DE006EE93C /* MapKit.framework */; };
+		E9B654081C9B5E7B006EE93C /* Drop Bombs Button.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B654071C9B5E7B006EE93C /* Drop Bombs Button.png */; };
+		E9B654121C9B6A6A006EE93C /* ChatIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B6540F1C9B6A6A006EE93C /* ChatIcon.png */; };
+		E9B654131C9B6A6A006EE93C /* ProfileInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B654101C9B6A6A006EE93C /* ProfileInfo.png */; };
+		E9B654141C9B6A6A006EE93C /* MapsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B654111C9B6A6A006EE93C /* MapsIcon.png */; };
+		E9B654161C9B73F8006EE93C /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B654151C9B73F8006EE93C /* AppIcon.png */; };
+		E9B654181C9B74C8006EE93C /* Appicontest.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B654171C9B74C8006EE93C /* Appicontest.png */; };
+		E9B6541A1C9B74F5006EE93C /* app80.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B654191C9B74F5006EE93C /* app80.png */; };
+		E9B6541C1C9B7508006EE93C /* app59.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B6541B1C9B7508006EE93C /* app59.png */; };
+		E9B6541E1C9B7659006EE93C /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B6541D1C9B7659006EE93C /* ChatListViewController.swift */; };
+		E9CB2CA71C9B81B700041157 /* CustomChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB2CA61C9B81B700041157 /* CustomChatCell.swift */; };
+		E9CB2CA91C9B837700041157 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB2CA81C9B837700041157 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +50,7 @@
 /* Begin PBXFileReference section */
 		E9A42D451C9B29C60046E261 /* Dropping Bombs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dropping Bombs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A42D481C9B29C60046E261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9A42D4A1C9B29C60046E261 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9A42D4A1C9B29C60046E261 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		E9A42D4D1C9B29C60046E261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9A42D4F1C9B29C60046E261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9A42D521C9B29C60046E261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,20 @@
 		E9A42D641C9B29C60046E261 /* Dropping BombsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dropping BombsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A42D681C9B29C60046E261 /* Dropping_BombsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dropping_BombsUITests.swift; sourceTree = "<group>"; };
 		E9A42D6A1C9B29C60046E261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A42D761C9B2A8F0046E261 /* cameraIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cameraIcon.png; sourceTree = "<group>"; };
+		E9B654011C9B4852006EE93C /* DropBombsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropBombsViewController.swift; sourceTree = "<group>"; };
+		E9B654031C9B53DE006EE93C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E9B654071C9B5E7B006EE93C /* Drop Bombs Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Drop Bombs Button.png"; sourceTree = "<group>"; };
+		E9B6540F1C9B6A6A006EE93C /* ChatIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChatIcon.png; sourceTree = "<group>"; };
+		E9B654101C9B6A6A006EE93C /* ProfileInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ProfileInfo.png; sourceTree = "<group>"; };
+		E9B654111C9B6A6A006EE93C /* MapsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MapsIcon.png; sourceTree = "<group>"; };
+		E9B654151C9B73F8006EE93C /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+		E9B654171C9B74C8006EE93C /* Appicontest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Appicontest.png; sourceTree = "<group>"; };
+		E9B654191C9B74F5006EE93C /* app80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app80.png; sourceTree = "<group>"; };
+		E9B6541B1C9B7508006EE93C /* app59.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app59.png; sourceTree = "<group>"; };
+		E9B6541D1C9B7659006EE93C /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		E9CB2CA61C9B81B700041157 /* CustomChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomChatCell.swift; sourceTree = "<group>"; };
+		E9CB2CA81C9B837700041157 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B654041C9B53DE006EE93C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +106,7 @@
 		E9A42D3C1C9B29C60046E261 = {
 			isa = PBXGroup;
 			children = (
+				E9B654031C9B53DE006EE93C /* MapKit.framework */,
 				E9A42D471C9B29C60046E261 /* Dropping Bombs */,
 				E9A42D5C1C9B29C60046E261 /* Dropping BombsTests */,
 				E9A42D671C9B29C60046E261 /* Dropping BombsUITests */,
@@ -98,11 +128,24 @@
 			isa = PBXGroup;
 			children = (
 				E9A42D481C9B29C60046E261 /* AppDelegate.swift */,
-				E9A42D4A1C9B29C60046E261 /* ViewController.swift */,
+				E9A42D4A1C9B29C60046E261 /* UserProfileViewController.swift */,
 				E9A42D4C1C9B29C60046E261 /* Main.storyboard */,
+				E9B6541D1C9B7659006EE93C /* ChatListViewController.swift */,
+				E9CB2CA61C9B81B700041157 /* CustomChatCell.swift */,
+				E9CB2CA81C9B837700041157 /* UserInfo.swift */,
+				E9B654011C9B4852006EE93C /* DropBombsViewController.swift */,
 				E9A42D4F1C9B29C60046E261 /* Assets.xcassets */,
 				E9A42D511C9B29C60046E261 /* LaunchScreen.storyboard */,
 				E9A42D541C9B29C60046E261 /* Info.plist */,
+				E9A42D761C9B2A8F0046E261 /* cameraIcon.png */,
+				E9B654071C9B5E7B006EE93C /* Drop Bombs Button.png */,
+				E9B6540F1C9B6A6A006EE93C /* ChatIcon.png */,
+				E9B654101C9B6A6A006EE93C /* ProfileInfo.png */,
+				E9B654111C9B6A6A006EE93C /* MapsIcon.png */,
+				E9B654151C9B73F8006EE93C /* AppIcon.png */,
+				E9B654171C9B74C8006EE93C /* Appicontest.png */,
+				E9B654191C9B74F5006EE93C /* app80.png */,
+				E9B6541B1C9B7508006EE93C /* app59.png */,
 			);
 			path = "Dropping Bombs";
 			sourceTree = "<group>";
@@ -194,6 +237,11 @@
 					E9A42D441C9B29C60046E261 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = FGUJNZKHSN;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					E9A42D581C9B29C60046E261 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -232,9 +280,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B654181C9B74C8006EE93C /* Appicontest.png in Resources */,
+				E9B654081C9B5E7B006EE93C /* Drop Bombs Button.png in Resources */,
+				E9B654141C9B6A6A006EE93C /* MapsIcon.png in Resources */,
+				E9B654161C9B73F8006EE93C /* AppIcon.png in Resources */,
 				E9A42D531C9B29C60046E261 /* LaunchScreen.storyboard in Resources */,
 				E9A42D501C9B29C60046E261 /* Assets.xcassets in Resources */,
+				E9B6541C1C9B7508006EE93C /* app59.png in Resources */,
 				E9A42D4E1C9B29C60046E261 /* Main.storyboard in Resources */,
+				E9B654121C9B6A6A006EE93C /* ChatIcon.png in Resources */,
+				E9A42D771C9B2A8F0046E261 /* cameraIcon.png in Resources */,
+				E9B6541A1C9B74F5006EE93C /* app80.png in Resources */,
+				E9B654131C9B6A6A006EE93C /* ProfileInfo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A42D4B1C9B29C60046E261 /* ViewController.swift in Sources */,
+				E9CB2CA71C9B81B700041157 /* CustomChatCell.swift in Sources */,
+				E9A42D4B1C9B29C60046E261 /* UserProfileViewController.swift in Sources */,
 				E9A42D491C9B29C60046E261 /* AppDelegate.swift in Sources */,
+				E9B6541E1C9B7659006EE93C /* ChatListViewController.swift in Sources */,
+				E9CB2CA91C9B837700041157 /* UserInfo.swift in Sources */,
+				E9B654021C9B4852006EE93C /* DropBombsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +546,7 @@
 				E9A42D6F1C9B29C60046E261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9A42D701C9B29C60046E261 /* Build configuration list for PBXNativeTarget "Dropping BombsTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +555,7 @@
 				E9A42D721C9B29C60046E261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9A42D731C9B29C60046E261 /* Build configuration list for PBXNativeTarget "Dropping BombsUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +564,7 @@
 				E9A42D751C9B29C60046E261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
